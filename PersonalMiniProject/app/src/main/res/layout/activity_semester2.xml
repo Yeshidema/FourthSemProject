@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Semester2"
+    android:orientation="vertical"
+    android:background="@drawable/g">
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/LightGray"
+        android:text="HTML"
+        android:onClick="sem2html"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/oval"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.140" />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/LightGray"
+        android:background="@drawable/oval"
+        android:text="Database"
+        android:onClick="Sem2database"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.131" />
+
+
+    <android.widget.Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/oval"
+        android:onClick="Sem2systemsoftware"
+        android:backgroundTint="@color/LightGray"
+        android:text="System Software Design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/black"
+        android:onClick="Home"
+        app:srcCompat="@drawable/ic_action_name" />
+
+
+</LinearLayout>

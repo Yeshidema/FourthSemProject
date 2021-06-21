@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductAdaptor">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="@dimen/card_margin_horizontal_big_activity"
+        android:layout_marginTop="@dimen/card_margin_vertical_big_activity"
+        android:layout_marginEnd="@dimen/card_margin_horizontal_big_activity"
+        android:layout_marginBottom="@dimen/card_margin_vertical_big_activity"
+        android:background="#fcfcfc"
+        android:foreground="?attr/selectableItemBackground"
+        tools:cardCornerRadius="@dimen/card_recycler_corner_radius"
+        tools:cardElevation="@dimen/card_recycler_elevation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/text_margin"
+            android:background="@drawable/l">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/text_margin"
+                android:background="@drawable/common_full_open_on_phone"
+                android:scaleType="centerCrop"
+                android:transitionName="shareView" />
+
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@id/imageView"
+                android:layout_toRightOf="@id/imageView"
+                android:text="hello"
+                android:textColor="@color/Beeyellow"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/fvrt_f2_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textViewTitle"
+                android:layout_toRightOf="@+id/textViewTitle"
+                android:background="@android:color/transparent"
+                android:padding="4dp"
+                android:src="@drawable/ic_baseline_turned_in_not_24" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

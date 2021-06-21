@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/k">
+
+   <!-- <RelativeLayout
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">-->
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <android.widget.Button
+                android:id="@+id/Sem1"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 1"
+                android:textColor="@color/black" />
+
+            <android.widget.Button
+                android:id="@+id/Sem2"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 2"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <android.widget.Button
+                android:id="@+id/Sem3"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 3"
+                android:textColor="@color/black"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <android.widget.Button
+                android:id="@+id/Sem4"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 4"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <android.widget.Button
+                android:id="@+id/Sem5"
+
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 5"
+                android:textColor="@color/black"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <android.widget.Button
+                android:id="@+id/Sem6"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 6"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <android.widget.Button
+                android:id="@+id/Sem7"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 7"
+                android:background="@drawable/oval"
+                android:textColor="@color/black"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <android.widget.Button
+                android:id="@+id/Sem8"
+                android:layout_width="142dp"
+                android:layout_height="55dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/LightGray"
+                android:text="Semester 8"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
